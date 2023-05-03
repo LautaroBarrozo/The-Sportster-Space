@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ContextError from './pages/context/ContextError';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <ContextError>
     <App />
-  </React.StrictMode>
+  </ContextError>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
